@@ -1,21 +1,7 @@
 layout: {zmk_keyboard: sofle}
 layers:
-  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, ESC, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT,
-    Z, X, C, V, B, MUTE, '', N, M, ',', ., /, RSHFT, LGUI, LALT, LCTRL, lower, RET, SPACE, raise, RCTRL, RALT, RGUI]
-  lower:
-  - '&studio_unlock'
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - '`'
+  Base:
+  - ESC
   - '1'
   - '2'
   - '3'
@@ -26,150 +12,224 @@ layers:
   - '8'
   - '9'
   - '0'
-  - F12
-  - {t: ▽, type: trans}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - KP MULTIPLY
-  - (
-  - )
-  - '|'
-  - {t: ▽, type: trans}
   - '='
+  - TAB
+  - ''''
+  - ','
+  - .
+  - P
+  - Y
+  - F
+  - G
+  - C
+  - R
+  - L
+  - /
+  - {t: LEFT SHIFT, h: sticky}
+  - {t: A, h: LWIN}
+  - {t: O, h: LALT}
+  - E
+  - U
+  - I
+  - D
+  - H
+  - T
+  - N
+  - S
   - '-'
-  - KP PLUS
-  - '{'
-  - '}'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '['
-  - ']'
+  - {t: LEFT CONTROL, h: sticky}
   - ;
-  - ':'
+  - Q
+  - J
+  - K
+  - X
+  - MUTE
+  - ''
+  - B
+  - M
+  - W
+  - V
+  - Z
   - \
-  - {t: ▽, type: trans}
-  - '&studio_unlock'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  raise:
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - {t: ▽, type: trans}
+  - LGUI
+  - '&flatten'
+  - {t: LALT, h: sticky}
+  - SPACE
+  - Nav
+  - Num
+  - ENTER
+  - BACKSPACE
+  - RALT
+  - RGUI
+  Num:
+  - '&numword ESCAPE'
+  - Sft+(
+  - KP 7
+  - KP 8
+  - KP 9
+  - '&numword LS(RIGHT_PARENTHESIS)'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&numword TAB'
+  - '['
+  - KP 4
+  - KP 5
+  - KP 6
+  - ']'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - '`'
+  - KP 1
+  - KP 2
+  - KP 3
+  - '='
+  - CAPS
+  - LEFT
+  - DOWN
+  - UP ARROW
+  - RIGHT
+  - ''
+  - {t: ▽, type: trans}
+  - /
+  - KP MINUS
+  - KP 0
+  - KP DOT
+  - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - INS
-  - PSCRN
-  - CMENU
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - HOME
+  - PAGE DOWN
   - PG UP
-  - {t: ▽, type: trans}
-  - UP
-  - {t: ▽, type: trans}
-  - '0'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LALT
-  - LCTRL
-  - LSHFT
-  - {t: ▽, type: trans}
-  - CLCK
-  - PG DN
-  - LEFT
-  - DOWN
-  - RIGHT
-  - DEL
-  - BSPC
-  - {t: ▽, type: trans}
-  - UNDO
-  - CUT
-  - COPY
-  - PASTE
+  - END
+  - ''
+  - '&flatten'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&numword SPACE'
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  adjust:
+  - {t: ▽, type: trans}
+  Nav:
   - BT CLR
+  - F12
+  - F7
+  - F8
+  - F9
+  - F15
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
+  - {t: ▽, type: trans}
+  - BT CLR
+  - {t: ▽, type: trans}
+  - F11
+  - F4
+  - F5
+  - F6
+  - F14
+  - Ctl+R
+  - Ctl+V
+  - Ctl+C
+  - Ctl+X
+  - Ctl+Z
+  - ''
+  - {t: ▽, type: trans}
+  - F10
+  - F1
+  - F2
+  - F3
+  - F13
+  - CAPS
+  - LEFT
+  - DOWN
+  - UP ARROW
+  - RIGHT
+  - ''
+  - {t: ▽, type: trans}
+  - ''
+  - F1
+  - F10
+  - F12
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - INS
+  - HOME
+  - PAGE DOWN
+  - PG UP
+  - END
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  symbols:
+  - {t: ▽, type: trans}
+  - ''
+  - Sft+&
+  - Sft+*
+  - Sft+(
+  - ''
+  - ''
+  - ''
+  - '&degree'
+  - ''
+  - ''
+  - '&plus_minus'
+  - {t: ▽, type: trans}
+  - Sft+{
+  - Sft+$
+  - Sft+%
+  - Sft+^
+  - Sft+}
+  - ''
+  - ''
+  - AL CALC
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - Sft+_
+  - Sft+!
+  - Sft+@
+  - Sft+#
+  - Sft++
   - ''
   - ''
   - ''
   - ''
   - ''
   - ''
-  - EP TOG
-  - RGB HUD
-  - RGB HUI
-  - RGB SAD
-  - RGB SAI
-  - RGB EFF
+  - {type: held}
+  - Sft+?
+  - Sft+@
+  - Sft+}
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - RGB BRD
-  - RGB BRI
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - Sft+|
   - RGB TOG
   - ''
   - ''
+  - '&micro'
   - ''
   - ''
   - ''
@@ -178,10 +238,43 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
-  - ''
-  - ''
-  - {type: held}
   - ''
   - ''
   - ''
+  - ''
+  - ''
+  - ''
+combos:
+- p: [14, 15]
+  k: ESCAPE
+- p: [15, 16]
+  k: ENTER
+  l: [Base, Nav, symbols]
+- p: [16, 17]
+  k: BACKSPACE
+- p: [38, 39]
+  k: Ctl+C
+- p: [38, 40]
+  k: Ctl+X
+- p: [39, 40]
+  k: Ctl+V
+- p: [15, 16]
+  k: '&numword ENTER'
+  l: [Num]
+- p: [28, 40]
+  k: KP ENTER
+- p: [14, 26]
+  k: '&commaspace'
+  l: [Num]
+- p: [24, 25]
+  k: Ctl+A
+- p: [25, 26]
+  k: Alt+O
+- p: [36, 37]
+  k: Ctl+;
+- p: [24, 36]
+  k: {t: symbols, h: sticky}
+- p: [5, 17]
+  k: '&msc SCRL_UP'
+- p: [29, 41]
+  k: '&msc SCRL_DOWN'
