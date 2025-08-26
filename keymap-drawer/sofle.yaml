@@ -43,7 +43,7 @@ layers:
   - J
   - K
   - X
-  - LEFT WIN
+  - '1'
   - ''
   - B
   - M
@@ -51,11 +51,11 @@ layers:
   - V
   - Z
   - \
-  - {t: Num, h: toggle}
-  - {t: LEFT ALT, h: sticky}
-  - {t: SPACE, h: sticky}
-  - Nav
-  - MUTE
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
   - Num
   - ENTER
   - BACKSPACE
@@ -176,7 +176,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
