@@ -43,7 +43,7 @@ layers:
   - J
   - K
   - X
-  - MUTE
+  - LEFT WIN
   - ''
   - B
   - M
@@ -51,11 +51,11 @@ layers:
   - V
   - Z
   - \
-  - LGUI
-  - '&flatten'
-  - {t: LALT, h: sticky}
-  - SPACE
+  - {t: Num, h: toggle}
+  - {t: LEFT ALT, h: sticky}
+  - {t: SPACE, h: sticky}
   - Nav
+  - MUTE
   - Num
   - ENTER
   - BACKSPACE
@@ -176,8 +176,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
