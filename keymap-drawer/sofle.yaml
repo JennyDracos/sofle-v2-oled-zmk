@@ -43,19 +43,19 @@ layers:
   - J
   - K
   - X
-  - '1'
-  - ''
+  - Nav
+  - PLAY PAUSE
   - B
   - M
   - W
   - V
   - Z
   - \
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
+  - MUTE
+  - LEFT GUI
+  - '&flatten'
+  - {t: LALT, h: sticky}
+  - SPACE
   - Num
   - ENTER
   - BACKSPACE
@@ -165,7 +165,7 @@ layers:
   - F10
   - F12
   - ''
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - INS
   - HOME
